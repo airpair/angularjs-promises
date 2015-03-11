@@ -22,7 +22,7 @@ and they are returned from functions whose meaningful result will be found or ca
 You should note:
 
 * You don't ever need to construct a promise yourself using object notation. As will be discussed, they will be created via function calls.
-* Angular promises have other functions, but they just shortcuts, so are ommited for this post.
+* Angular promises have other functions, but they are just shortcuts, so are ommited for this post.
 
 ### Using promises
 
