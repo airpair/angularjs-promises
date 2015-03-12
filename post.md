@@ -37,7 +37,7 @@ promise.then(function(result) {
 
 In the preceeding example, the success of the GET request will cause the `$http` service to _resolve_ the promise with the result of the GET request. This will then call the `successCallback` passing this resolved value as the first parameter.
 
-It's quite common to not assign promises to an intermediate variable. The following is equivalent to the preceding example.
+It's quite common to not assign promises to an intermediate variable. This example achieves the same result.
 
 ```javascript
 $http.get('/my-url').then(function(result) {
